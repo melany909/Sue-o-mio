@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff6f9;
+    color: #333
+}
+
+.header {
+    height: 290px;
+    background-color: #e8b7c5;
+    background-image: url("img/logo-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    opacity: 0.9;
+}
+
+
+.header h1 {
+    margin: 0;
+}
+
+.nav {
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 182, 193, 0.8);
+    padding: 12px;
+    text-align: center;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+.nav.scrolled {
+    background-color: rgba(232, 183, 197, 0.95);
+}
+
+.nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.section {
+    padding: 30px;
+    text-align: center;
+}
+
+.section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.section li {
+    margin: 10px 0;
+}
+
+.footer {
+    background-color: #333;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.logo {
+    max-width: 180px;
+    margin-bottom: 10px;
+}
+
+.titulo-principal {
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+}
+
+.titulo-principal h1 {
+    margin-bottom: 5px;
+}
+
+.grande {
+    min-height: 100vh;
+    padding: 80px 20px;
+}
