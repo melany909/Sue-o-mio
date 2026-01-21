@@ -153,3 +153,76 @@ body {
     font-size: 28px;
     margin-bottom: 10px;
 }
+
+/* Sección horarios */
+#horarios {
+    padding: 50px 20px;
+    background-color: #fff6f8;
+}
+
+/* Título */
+#horarios h2 {
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    color: #c45c8a;
+    margin-bottom: 30px;
+}
+
+/* Contenedor horarios */
+.horarios-contenido {
+    max-width: 500px;
+    margin: auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* Cada día */
+.horarios-contenido p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #444;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Día destacado */
+.horarios-contenido span {
+    font-weight: 600;
+    color: #c45c8a;
+    font-size: 20px;
+}
+
+/* Contacto item */
+.contacto-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+/* Botón whatsapp*/
+.btn-wsp{
+    background-color: #25D366;
+    color: white;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.btn-wsp:hover {
+    background-color: #1ebe5d;
+    transform: scale(1.05);
+}
+
+.contacto-item p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
