@@ -30,3 +30,14 @@ navLinks.forEach(link => {
 // Mostrar inicio por defecto
 document.getElementById('inicio').style.display = 'block';
 
+const categorias = document.querySelectorAll(".categoria-titulo");
+
+categorias.forEach(btn => {
+  btn.addEventListener("click", () => {
+    const contenido = btn.nextElementSibling;
+
+    contenido.style.display =
+      contenido.style.display === "block" ? "none" : "block";
+  });
+});
+
