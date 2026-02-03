@@ -28,7 +28,17 @@ navLinks.forEach(link => {
 });
 
 // Mostrar inicio por defecto
-document.getElementById('inicio').style.display = 'block';
+window.addEventListener("load", () => {
+    sections.forEach(section => {
+        section.style.display = "none";
+    });
+
+    const inicio = document.getElementById("inicio");
+    if (inicio) {
+        inicio.style.display = "block";
+    }
+
+});
 
 const categorias = document.querySelectorAll(".categoria-titulo");
 
